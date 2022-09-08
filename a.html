@@ -31,7 +31,7 @@
 <img src="https://www.bbc.co.uk/staticarchive/42a1e3fb5903e60b19fc7f16c4c15b14dbb71004.gif" style="border:1px solid green"><br><br>
 	Distance<input id="distance"/ placeholder="in ms"><br/><br>
 
-	Time<input id="time"/ placeholder="in sec"><br/><br>
+	Time<input id="time"/ placeholder="in min"><br/><br>
 	<button onClick="get()">Check Speed</button><br><br>
 	<p>Your Speed:</p><input type="text" id="ans">
 	</div>
@@ -40,7 +40,7 @@
 	var a,b,c;
 	a=Number(document.getElementById("distance").value);
 	b=Number(document.getElementById("time").value);
-	c=a/b;
+	c=a/(b*60);
 	document.getElementById("ans").value=c;
 	}
 	</script>
