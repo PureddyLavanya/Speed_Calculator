@@ -1,0 +1,36 @@
+body{
+    padding:20px;
+   }
+  .center{
+    background:Lavender;
+    height:65%;
+    position:absolute;
+    padding:25px 25px;
+    width:45%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    top: 40%;
+    left: 50%;
+    border-radius: 5px;
+  font-family: 'Poppins',sans-serif;
+  box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
+  border:6px solid purple;
+  border-radius:10px;
+  align-items:center;
+  }
+  im{
+    width:80%;
+    margin: 5px 10px 35px 5px;
+  }
+  @media (max-width:740px){
+    .center{
+        width:50%;
+        height: 65%;
+        padding: auto;
+    }
+    im{
+        width:80%;
+        margin:auto;
+        }
+  }
