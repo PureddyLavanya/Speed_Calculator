@@ -26,7 +26,7 @@ body{
   @media (max-width:540px){
     .center{
         width:50%;
-        height:45%;
+        height:25%;
         padding: auto;
     }
     im{
@@ -34,3 +34,10 @@ body{
         margin:auto;
         }
   }
+@media (max-width:420px){
+     .center{
+        width:50%;
+        height:65%;
+        padding: auto;
+    }
+}
